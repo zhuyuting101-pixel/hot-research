@@ -1,0 +1,107 @@
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+.head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: #FAFAFA;
+  border-bottom: 1px solid var(--border-light);
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.name {
+  font-size: 13px;
+  font-weight: 500;
+  flex: 1;
+}
+.time {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.stale {
+  color: var(--stale-fg);
+  font-size: 11px;
+}
+.empty {
+  padding: 24px 14px;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+}
+.list { padding: 4px 0; }
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 14px;
+  border-bottom: 1px solid var(--border-light);
+  transition: background .1s;
+}
+.item:last-child { border-bottom: none; }
+.item:hover { background: #FAFAFA; }
+
+/* Rank numbers */
+.rank, .rank1, .rank2, .rank3 {
+  font-size: 12px;
+  font-weight: 600;
+  min-width: 18px;
+  text-align: center;
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
+.rank1 { color: var(--rank-1); font-size: 14px; }
+.rank2 { color: var(--rank-2); }
+.rank3 { color: var(--rank-3); }
+
+.title {
+  font-size: 13px;
+  color: var(--text-primary);
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+}
+.title:hover { color: var(--accent); }
+
+.badges {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.badgeNew, .badgeHot {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+.badgeNew { background: var(--badge-new-bg); color: var(--badge-new-fg); }
+.badgeHot { background: var(--badge-hot-bg); color: var(--badge-hot-fg); }
+.hotVal {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.toggle {
+  width: 100%;
+  padding: 8px 14px;
+  font-size: 12px;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  transition: color .15s, background .15s;
+}
+.toggle:hover { color: var(--text-secondary); background: #FAFAFA; }

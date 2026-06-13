@@ -1,0 +1,120 @@
+{
+  "hotList": {
+    "items": [
+      {
+        "rank": 1,
+        "title": "巴以停火协议正式签署",
+        "primaryUrl": "https://s.weibo.com/weibo?q=%E5%B7%B4%E4%BB%A5%E5%81%9C%E7%81%AB",
+        "score": 160.4,
+        "sources": ["weibo", "zhihu"],
+        "isMerged": true,
+        "isNew": false,
+        "updatedAt": "2026-06-03T09:00:00Z"
+      },
+      {
+        "rank": 2,
+        "title": "2026高考首日作文题出炉",
+        "primaryUrl": "https://top.baidu.com/board?tab=realtime",
+        "score": 142.1,
+        "sources": ["baidu"],
+        "isMerged": false,
+        "isNew": false,
+        "updatedAt": "2026-06-03T09:00:00Z"
+      },
+      {
+        "rank": 3,
+        "title": "DeepSeek R3 正式发布",
+        "primaryUrl": "https://www.zhihu.com/question/12345678",
+        "score": 128.7,
+        "sources": ["zhihu", "weibo"],
+        "isMerged": true,
+        "isNew": true,
+        "updatedAt": "2026-06-03T09:00:00Z"
+      },
+      {
+        "rank": 4,
+        "title": "北京暴雨红色预警",
+        "primaryUrl": "https://s.weibo.com/weibo?q=%E5%8C%97%E4%BA%AC%E6%9A%B4%E9%9B%A8",
+        "score": 115.3,
+        "sources": ["weibo"],
+        "isMerged": false,
+        "isNew": false,
+        "updatedAt": "2026-06-03T09:00:00Z"
+      },
+      {
+        "rank": 5,
+        "title": "神舟二十二号返回舱成功着陆",
+        "primaryUrl": "https://s.weibo.com/weibo?q=%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E4%BA%8C%E5%8F%B7",
+        "score": 108.9,
+        "sources": ["weibo", "zhihu"],
+        "isMerged": true,
+        "isNew": false,
+        "updatedAt": "2026-06-03T09:00:00Z"
+      }
+    ],
+    "generatedAt": "2026-06-03T09:01:00Z",
+    "category": "all"
+  },
+
+  "platforms": [
+    {
+      "platform": "weibo",
+      "platformName": "微博",
+      "platformColor": "#FF6B35",
+      "fetchedAt": "2026-06-03T09:00:00Z",
+      "stale": false,
+      "items": [
+        { "platform": "weibo", "rank": 1, "title": "巴以停火协议正式签署", "url": "https://s.weibo.com/weibo?q=%E5%B7%B4%E4%BB%A5%E5%81%9C%E7%81%AB", "hotValue": 88230000, "hotDisplay": "8823万", "isNew": false, "isHot": true,  "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "weibo", "rank": 2, "title": "北京暴雨红色预警",       "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E4%BA%AC%E6%9A%B4%E9%9B%A8", "hotValue": 52100000, "hotDisplay": "5210万", "isNew": false, "isHot": true,  "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "weibo", "rank": 3, "title": "神舟二十二号返回舱成功着陆", "url": "https://s.weibo.com/weibo?q=%E7%A5%9E%E8%88%9F", "hotValue": 48900000, "hotDisplay": "4890万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "weibo", "rank": 4, "title": "某明星离婚内幕曝光",     "url": "https://s.weibo.com/weibo?q=%E7%A6%BB%E5%A9%9A", "hotValue": 36200000, "hotDisplay": "3620万", "isNew": true,  "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "weibo", "rank": 5, "title": "高考结束考生崩溃大哭",   "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%80%83", "hotValue": 28900000, "hotDisplay": "2890万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "weibo", "rank": 6, "title": "国足亚洲杯出线希望渺茫", "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E8%B6%B3", "hotValue": 19500000, "hotDisplay": "1950万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "weibo", "rank": 7, "title": "上海迪士尼新园区正式开放", "url": "https://s.weibo.com/weibo?q=%E8%BF%AA%E5%A3%AB%E5%B0%BC", "hotValue": 16400000, "hotDisplay": "1640万", "isNew": true,  "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "weibo", "rank": 8, "title": "A股三大指数集体收涨",    "url": "https://s.weibo.com/weibo?q=A%E8%82%A1", "hotValue": 13200000, "hotDisplay": "1320万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "weibo", "rank": 9, "title": "DeepSeek R3 发布引发热议", "url": "https://s.weibo.com/weibo?q=DeepSeek", "hotValue": 11800000, "hotDisplay": "1180万", "isNew": true,  "isHot": true,  "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "weibo", "rank": 10,"title": "五月天演唱会上海站开票", "url": "https://s.weibo.com/weibo?q=%E4%BA%94%E6%9C%88%E5%A4%A9", "hotValue": 9600000,  "hotDisplay": "960万",  "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" }
+      ]
+    },
+
+    {
+      "platform": "zhihu",
+      "platformName": "知乎",
+      "platformColor": "#0084FF",
+      "fetchedAt": "2026-06-03T08:58:00Z",
+      "stale": false,
+      "items": [
+        { "platform": "zhihu", "rank": 1,  "title": "DeepSeek R3 发布，性能究竟如何？",          "url": "https://www.zhihu.com/question/123456", "hotValue": 9520000, "hotDisplay": "952万", "isNew": true,  "isHot": true,  "fetchedAt": "2026-06-03T08:58:00Z" },
+        { "platform": "zhihu", "rank": 2,  "title": "年轻人为何越来越不愿生育二胎？",            "url": "https://www.zhihu.com/question/234567", "hotValue": 7810000, "hotDisplay": "781万", "isNew": false, "isHot": true,  "fetchedAt": "2026-06-03T08:58:00Z" },
+        { "platform": "zhihu", "rank": 3,  "title": "如何看待苹果 WWDC 2026 的 AI 功能？",      "url": "https://www.zhihu.com/question/345678", "hotValue": 6320000, "hotDisplay": "632万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T08:58:00Z" },
+        { "platform": "zhihu", "rank": 4,  "title": "2026年最值得入手的旗舰手机是哪款？",        "url": "https://www.zhihu.com/question/456789", "hotValue": 5190000, "hotDisplay": "519万", "isNew": true,  "isHot": false, "fetchedAt": "2026-06-03T08:58:00Z" },
+        { "platform": "zhihu", "rank": 5,  "title": "大学四年如何规划才不后悔？",               "url": "https://www.zhihu.com/question/567890", "hotValue": 4380000, "hotDisplay": "438万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T08:58:00Z" },
+        { "platform": "zhihu", "rank": 6,  "title": "职场 35 岁危机是真实存在的吗？",           "url": "https://www.zhihu.com/question/678901", "hotValue": 3720000, "hotDisplay": "372万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T08:58:00Z" },
+        { "platform": "zhihu", "rank": 7,  "title": "在日本生活是种怎样的体验？",               "url": "https://www.zhihu.com/question/789012", "hotValue": 2950000, "hotDisplay": "295万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T08:58:00Z" },
+        { "platform": "zhihu", "rank": 8,  "title": "巴以停火后中东局势将如何演变？",           "url": "https://www.zhihu.com/question/890123", "hotValue": 2640000, "hotDisplay": "264万", "isNew": true,  "isHot": false, "fetchedAt": "2026-06-03T08:58:00Z" },
+        { "platform": "zhihu", "rank": 9,  "title": "普通人如何在 AI 时代保持竞争力？",         "url": "https://www.zhihu.com/question/901234", "hotValue": 2310000, "hotDisplay": "231万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T08:58:00Z" },
+        { "platform": "zhihu", "rank": 10, "title": "高考作文题年年出圈，命题老师怎么想的？",   "url": "https://www.zhihu.com/question/012345", "hotValue": 1980000, "hotDisplay": "198万", "isNew": true,  "isHot": false, "fetchedAt": "2026-06-03T08:58:00Z" }
+      ]
+    },
+
+    {
+      "platform": "baidu",
+      "platformName": "百度",
+      "platformColor": "#CC0000",
+      "fetchedAt": "2026-06-03T09:00:00Z",
+      "stale": false,
+      "items": [
+        { "platform": "baidu", "rank": 1,  "title": "2026高考首日作文题出炉",  "url": "https://top.baidu.com/board?tab=realtime", "hotValue": 6230000, "hotDisplay": "623万", "isNew": false, "isHot": true,  "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "baidu", "rank": 2,  "title": "巴以冲突最新消息",        "url": "https://top.baidu.com/board?tab=realtime", "hotValue": 5890000, "hotDisplay": "589万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "baidu", "rank": 3,  "title": "北京大雨今晚几点停",      "url": "https://top.baidu.com/board?tab=realtime", "hotValue": 4120000, "hotDisplay": "412万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "baidu", "rank": 4,  "title": "今日油价调整最新消息",    "url": "https://top.baidu.com/board?tab=realtime", "hotValue": 3560000, "hotDisplay": "356万", "isNew": true,  "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "baidu", "rank": 5,  "title": "五月天演唱会上海站时间",  "url": "https://top.baidu.com/board?tab=realtime", "hotValue": 2980000, "hotDisplay": "298万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "baidu", "rank": 6,  "title": "签证免签国家最新名单2026","url": "https://top.baidu.com/board?tab=realtime", "hotValue": 2410000, "hotDisplay": "241万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "baidu", "rank": 7,  "title": "退休金上调最新政策",      "url": "https://top.baidu.com/board?tab=realtime", "hotValue": 2130000, "hotDisplay": "213万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "baidu", "rank": 8,  "title": "DeepSeek R3 下载",       "url": "https://top.baidu.com/board?tab=realtime", "hotValue": 1870000, "hotDisplay": "187万", "isNew": true,  "isHot": true,  "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "baidu", "rank": 9,  "title": "高考录取分数线预测",      "url": "https://top.baidu.com/board?tab=realtime", "hotValue": 1640000, "hotDisplay": "164万", "isNew": false, "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" },
+        { "platform": "baidu", "rank": 10, "title": "神舟返回舱落点在哪里",    "url": "https://top.baidu.com/board?tab=realtime", "hotValue": 1420000, "hotDisplay": "142万", "isNew": true,  "isHot": false, "fetchedAt": "2026-06-03T09:00:00Z" }
+      ]
+    }
+  ]
+}

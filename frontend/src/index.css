@@ -1,0 +1,42 @@
+/* ── Reset ──────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── Tokens ─────────────────────────────────────────── */
+:root {
+  --accent:        #E8572A;
+  --accent-light:  #FBE9E2;
+  --bg:            #F4F5F7;
+  --surface:       #FFFFFF;
+  --border:        #E8E8E8;
+  --border-light:  #F0F0F0;
+  --text-primary:  #1A1A1A;
+  --text-secondary:#555555;
+  --text-muted:    #999999;
+  --rank-1:        #E8572A;
+  --rank-2:        #C47A2E;
+  --rank-3:        #B8992A;
+  --badge-new-bg:  #FCEBEB;
+  --badge-new-fg:  #A32D2D;
+  --badge-hot-bg:  #FAEEDA;
+  --badge-hot-fg:  #854F0B;
+  --stale-fg:      #D97706;
+  --radius-sm:     6px;
+  --radius-md:     10px;
+  --radius-lg:     14px;
+  --shadow-card:   0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+  --nav-h:         52px;
+  --font: -apple-system, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+
+/* ── Base ────────────────────────────────────────────── */
+html { font-size: 14px; -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; border: none; background: none; }
+ul { list-style: none; }

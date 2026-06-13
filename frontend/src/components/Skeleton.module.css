@@ -1,0 +1,40 @@
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: .4; }
+}
+.pulse {
+  background: #E8E8E8;
+  border-radius: 4px;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+.card, .hotCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.hotCard { grid-column: 1 / -1; }
+.head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: #FAFAFA;
+  border-bottom: 1px solid var(--border-light);
+}
+.dot  { width: 8px;  height: 8px; border-radius: 50%; }
+.name { width: 60px; height: 13px; }
+.time { width: 40px; height: 11px; margin-left: auto; }
+.list { padding: 4px 0; }
+.hotGrid { display: grid; grid-template-columns: 1fr 1fr; }
+.item, .hotItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--border-light);
+}
+.hotItem { border-right: 1px solid var(--border-light); }
+.hotItem:nth-child(even) { border-right: none; }
+.rank  { width: 18px; height: 12px; flex-shrink: 0; }
+.title { height: 13px; }

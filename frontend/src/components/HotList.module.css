@@ -1,0 +1,108 @@
+.section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  /* 跨两列 */
+  grid-column: 1 / -1;
+}
+.head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: #FAFAFA;
+  border-bottom: 1px solid var(--border-light);
+}
+.headDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+.headTitle {
+  font-size: 13px;
+  font-weight: 600;
+}
+.headSub {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+.empty {
+  padding: 24px;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--border-light);
+  border-right: 1px solid var(--border-light);
+  transition: background .1s;
+}
+/* 右列不需要右边框 */
+.item:nth-child(even) { border-right: none; }
+.item:nth-last-child(-n+2) { border-bottom: none; }
+.item:hover { background: #FAFAFA; }
+
+.rank {
+  font-size: 13px;
+  font-weight: 700;
+  min-width: 22px;
+  text-align: center;
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
+.title {
+  font-size: 13px;
+  color: var(--text-primary);
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.title:hover { color: var(--accent); }
+
+.sources {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.sourceTag {
+  font-size: 10px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  border: 1px solid;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.barWrap {
+  width: 48px;
+  height: 3px;
+  background: var(--border);
+  border-radius: 99px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.bar {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 99px;
+}
+
+@media (max-width: 767px) {
+  .grid { grid-template-columns: 1fr; }
+  .item { border-right: none; }
+  .item:nth-last-child(-n+2) { border-bottom: 1px solid var(--border-light); }
+  .item:last-child { border-bottom: none; }
+}
